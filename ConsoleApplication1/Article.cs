@@ -5,12 +5,15 @@ using System.Text;
 
 namespace ConsoleApplication1
 {
+    //TP Dictionnaire
     public class Article
     {
+        //Attributs
         private double prixUnitaireHT;
         private int reference;
         private string libelle;
 
+        //Constructeur
         public Article(int uneReference, string unLibelle, double unPrix)
         {
             this.prixUnitaireHT = unPrix;
